@@ -109,7 +109,7 @@ This project requires **no backend**.
 You can deploy instantly on **Netlify**, **Vercel**, or **GitHub Pages**.
 
 ### 👉 Netlify (Recommended)
-1. Visit: https://app.netlify.com/drop  
+1. Visit:[ https://app.netlify.com/drop](https://ideachain.netlify.app/)  
 2. Drag & drop these files:
    - index.html  
    - style.css  
