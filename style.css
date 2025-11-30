@@ -1,0 +1,69 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(to right, #1f2937, #3b82f6);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 650px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+input, textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+#ideaList, #blockchainList {
+  text-align: left;
+  background: rgba(255,255,255,0.15);
+  padding: 10px;
+  border-radius: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.idea-item {
+  background: rgba(255,255,255,0.2);
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+/* prevent overflow */
+p, small {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}

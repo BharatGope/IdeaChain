@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IdeaChain – Blockchain + AI Idea Registry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>💡 IdeaChain – Blockchain + AI Idea Registry</h1>
+
+  <!-- Register Idea -->
+  <div class="card">
+    <h2>Register Your Idea (On-Chain Hashing)</h2>
+    <form id="ideaForm">
+      <input type="text" id="title" placeholder="Idea Title" required><br>
+      <textarea id="description" placeholder="Idea Description" required></textarea><br>
+      <button type="submit">Register Idea</button>
+    </form>
+    <p id="result"></p>
+  </div>
+
+  <!-- AI Verification -->
+  <div class="card">
+    <h2>AI Similarity-Based Idea Verification</h2>
+    <form id="verifyForm">
+      <textarea id="verifyText" placeholder="Enter your idea again..." required></textarea><br>
+      <button type="submit">Verify</button>
+    </form>
+    <p id="verifyResult"></p>
+  </div>
+
+  <!-- All Ideas -->
+  <div class="card">
+    <h2>All Registered Ideas</h2>
+    <div id="ideaList"></div>
+    <button id="exportBtn">📁 Export to Excel</button>
+    <button id="clearBtn">🧹 Clear All Ideas</button>
+    <button id="certBtn">📜 Download Certificate (Latest Idea)</button>
+  </div>
+
+  <!-- Simulated Blockchain Ledger -->
+  <div class="card">
+    <h2>⛓️ Simulated Blockchain Ledger</h2>
+    <div id="blockchainList"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
